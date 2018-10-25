@@ -1,3 +1,14 @@
-/node_modules/
-
+.DS_Store
+/node_modules
 yarn-error.log
+*.log
+*.cache
+/build
+/.eslintcache
+/browser.js
+/browser-polyfill.js
+/runtime.js
+coverage
+dist
+/.package.json
+package-lock.json

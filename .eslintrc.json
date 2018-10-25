@@ -1,0 +1,8 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "guard-for-in": "warn",
+    "no-restricted-properties": "off",
+    "no-restricted-syntax": "off"
+  }
+}
