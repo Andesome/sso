@@ -3,6 +3,7 @@
   "rules": {
     "guard-for-in": "warn",
     "no-restricted-properties": "off",
-    "no-restricted-syntax": "off"
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "warn"
   }
 }

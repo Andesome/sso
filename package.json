@@ -17,9 +17,13 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --cache --fix ./server/", "git add"]
+    "*.js": [
+      "eslint --cache --fix ./server/",
+      "git add"
+    ]
   },
   "dependencies": {
+    "jsonwebtoken": "^8.3.0",
     "koa": "^2.5.3",
     "koa-body": "^4.0.4",
     "koa-router": "^7.4.0",
