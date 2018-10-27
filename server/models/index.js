@@ -18,13 +18,20 @@ mongoose.connect(
 
 const models = {
   users: {
-    name: String,
+    name: { type: String, require: true, unique: true },
+    email: { type: String, require: true, unique: true },
+    prefix: String, // 手机号前缀
+    phone: Number,
+    website: String,
     age: Number,
     sex: String,
     birthday: String,
     avatar: String,
-    pwd: String,
+    pwd: { type: String, require: true },
     create_time: { type: Date, require: true },
+    last_modify: Date,
+    last_logout: Date,
+    last_login: Date,
   },
 };
 

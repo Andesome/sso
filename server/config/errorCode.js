@@ -26,6 +26,9 @@ const errorCode = {
   40006: {
     text: '该用户已存在',
   },
+  40007: {
+    text: '该用户不存在',
+  },
 };
 
 module.exports = errorCode;
