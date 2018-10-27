@@ -4,6 +4,8 @@ const Router = require('koa-router');
 const { PORT } = require('./config/config');
 const registerRoute = require('./routes/register');
 const loginRoute = require('./routes/login');
+const verifyRoute = require('./routes/verify');
+const logoutRoute = require('./routes/logout');
 
 const app = new Koa();
 const router = new Router();
@@ -46,8 +48,10 @@ app
   .use(koaBody({ strict: false, json: true }))
   .use(router.allowedMethods())
   .use(router.routes())
+  .use(verifyRoute.routes())
   .use(registerRoute.routes())
-  .use(loginRoute.routes());
+  .use(loginRoute.routes())
+  .use(logoutRoute.routes());
 
 app.listen(PORT, () => {
   console.log(`app start on ${PORT}`);

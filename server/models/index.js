@@ -32,6 +32,7 @@ const models = {
     last_modify: Date,
     last_logout: Date,
     last_login: Date,
+    last_ua: String,
   },
 };
 

@@ -1,4 +1,5 @@
 module.exports = {
-  PORT: 9600,
+  PORT: 9601,
   prefix: '/sso/',
+  JWT_SECRECT: 'LIAOLUNLING',
 };
