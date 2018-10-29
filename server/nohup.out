@@ -1,0 +1,19 @@
+(node:13864) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+app start on 9601
+(node:13864) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+connected success
+(node:14168) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+app start on 9601
+(node:14168) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+connected success
+(node:14168) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+(node:14517) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+app start on 9601
+(node:14517) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+connected success
+(node:14517) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+(node:16739) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+app start on 9601
+(node:16739) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+connected success
+(node:16739) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
