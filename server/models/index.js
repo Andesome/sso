@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
-
-const DB_URL = 'mongodb://47.96.109.136:27017/blog';
+const { DB_URL } = require('../config/privateConfig');
 
 mongoose.Promise = global.Promise;
 
