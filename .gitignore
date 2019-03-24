@@ -10,5 +10,6 @@ yarn-error.log
 /runtime.js
 coverage
 dist
+privateConfig.js
 /.package.json
 package-lock.json
